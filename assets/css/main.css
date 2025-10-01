@@ -1951,6 +1951,8 @@ input, select, textarea {
 	button,
 	.button {
 		position: relative;
+		margin-top: 5px;
+		margin-bottom: 5px;
 		display: inline-block;
 		border-radius: 0.35em;
 		color: #fff !important;
@@ -1984,6 +1986,7 @@ input, select, textarea {
 		.button:active {
 			background-color: #7eaeac;
 		}
+
 
 /* Item */
 
@@ -2747,10 +2750,12 @@ input, select, textarea {
             	background-color: #ecf1f1; 
             	display: none; 
             	font-size: 17px; 
+				width: 90%;
         } 
 
 		.FAQcontent { 
             	background-color: #f5fafa; /*  #eff4f4;  */
             	display: none; 
             	font-size: 17px; 
+				width: 90%;
         } 
