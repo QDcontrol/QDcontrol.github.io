@@ -2270,13 +2270,13 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #eff4f4;
 				text-align: justify;
 				font-size: 14pt;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #f5fafa;
 				text-align: justify;
 				font-size: 14pt;
 			}
@@ -2749,7 +2749,8 @@ input, select, textarea {
             	font-size: 17px; 
         } 
 
-
-
-
-
+		.FAQcontent { 
+            	background-color: #f5fafa; /*  #eff4f4;  */
+            	display: none; 
+            	font-size: 17px; 
+        } 
