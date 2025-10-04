@@ -98,20 +98,20 @@
 			interaction and collaboration between the stakeholders to build a large open-access database of experimental and simulated data for
 			benchmarking new machine learning algorithms, determining key performance metrics for the various aspects of the tuning, characterizing, 
 			and controlling of quantum dot devices, and identifying barriers to near-term and future applications of the auto-tuning methods. 
-			Furthermore, this workshop will provide a discussion place to consider methods of collaboration in a neutral setting and future roadmap 
-			development for methods for tuning large-scale devices.	
+			Furthermore, this workshop will provide a discussion space to consider methods of collaboration in a neutral setting and develop a 
+			roadmap for the future of tuning large-scale devices.	
 			</p>
 
 			<h3>Workshop objectives</h3>
 			<ol>
-				<li>Assess the availability and accessibility of experimental datasets for semiconductor quantum dot device automation, and identify 
+				<li>Assess the availability and accessibility of experimental datasets for semiconductor quantum dot device automation and identify 
 					gaps or barriers that limit their effective use in advancing research.</li>
 
 				<li>Explore emerging frontiers in automation, with emphasis on how datasets can be leveraged to benchmark new approaches and reveal 
 					unmet research needs.</li>
 
-				<li>Examine the role of simulation and modeling of quantum dot systems, focusing on how simulated datasets can complement experimental 
-					data to accelerate automation and improve scalability.</li>
+				<li>Examine the role of simulating and modeling quantum dot systems, focusing on how simulated datasets can complement experimental 
+					data to accelerate automation and enable scalability.</li>
 				
 				<li>Investigate approaches for building digital twins to close the loop between experimental data, modeling, and automation workflows, 
 					identifying the types of datasets and simulations required to make digital twins robust and broadly applicable.</li>
@@ -164,28 +164,38 @@
 				to submit abstracts and deliver presentations. Abstracts not selected for oral presentation will be given the opportunity to be presented 
 				as posters.</p> -->
 
-			This year's workshop will revolve around five themes:
+			<!-- This year's workshop will revolve around five themes:
 			<ul>
 				<li>The availability of experimental data datasets</li>
 				<li>Automation frontiers</li>
 				<li>Simulations of quantum dot systems</li>
 				<li>Closing the loop: building digital twins</li>
 				<li>Moving to the edge: automation in hardware</li>
-			</ul>
+			</ul> -->
 							
 			<!-- <p>When preparing your abstract, please use the LaTeX AQD abstract template (available <a href="https://QDcontrol.github.io/resources/AQD_latex_template.zip">
 			here</a>). To submit your abstract, send you abstract as a PDF file to <a href="mailto:aqd@nist.gov">aqd@nist.gov</a>, putting 
 			"AQD 2025 abstract" as email subject.</p> -->
 
-			<h4>9:00 am - 9:15 am : Welcome and opening remarks</h4><br>
+			<h4 class="agenda-item">9:00 am - 9:15 am : Welcome and opening remarks</h4><br>
 
-			<h4>9:15 am - 10:50 am : Scientific Session</h4>
+			<h4 class="agenda-item">9:15 am - 10:50 am : Scientific Session<br>
+			<em>Chair: Jesus Cifuentes</em></h4>
 			<ul>
 				<li>9:15 am - 9:50 am: Anthony Sigillito (University of Pennsylvania)  <br>								 
-					<button type="button" class="collapse">TBD</button> 
+					<button type="button" class="collapse">Noise and Knobs: Challenges in Autotuning Quantum Gates</button> 
 					<div class="content"> 
-						<p style="margin-bottom:10px; padding: 0px;">TBA</p>
-					</div>  </li>
+						<p style="margin-bottom:10px; padding: 0px;">Compared to other quantum technologies, quantum-dot-based spin qubits show great 
+							potential for scalability. They offer high readout visibility, competitive control fidelities, and a scalable semiconductor-based 
+							platform. Moreover, the many degrees of freedom in tuning up a lithographically defined quantum dot device enable varied qubit 
+							encodings and a rich set of primitive gates. These primitives may enable very efficient circuit-level optimization when running 
+							quantum algorithms. However, these many degrees of freedom come at the cost of increased susceptibility to noise and a control 
+							complexity that necessitates automated device tuning and calibration as processors scale to even a modest number of qubits. In 
+							this talk, I will discuss the steps required to tune up single- and two-qubit quantum gates in a silicon quantum processor. I 
+							will describe early efforts to automate the recalibration of single-qubit gates and identify key challenges in the automated 
+							tune-up of multi-qubit gates and larger qubit arrays.</p>
+					</div>  
+				</li>
 				
 				<li>9:50 am - 10:10 am: Pau Dietz Romero (Forschungszentrum J&uuml;lich)<br>
 					<button type="button" class="collapse">Applying Shuttling Optimal Control to Cryogenic Electronics</button> 
@@ -218,7 +228,7 @@
 							the cryogenic shuttling chip to achieve high shuttling fidelity by adjusting the pulses of the shuttling signal generator. 
 							We plan to run the modeled shuttling control on our real cryogenic chip integrated with a qubit to verify the effectiveness 
 							of the digital twin.</p>
-						[1] M. Ku&uuml;nne, et al., Nat. Commun. 15, 4977 (2024).<br>
+						[1] M. K&uuml;nne, et al., Nat. Commun. 15, 4977 (2024).<br>
 						[2] P. Dietz Romero, et al., Proc. SMACD 2025, 1-4 (2025).<br>
 						[3] A. David, et al., Preprint arXiv:2409.07600v1 (2024).<br>
 						[4] Paquelet Wuetz, B., Losert, M. P., et al., Nat Commun 13, 7730 (2022)
@@ -275,9 +285,10 @@
 				</li>
 			</ul>
 
-			<h4>10:50 am - 11:20 am : Coffee break</h4><br>
+			<h4 class="agenda-item">10:50 am - 11:20 am : Coffee break</h4><br>
 
-			<h4>11:20 am - 12:40 pm : Scientific Session</h4>
+			<h4 class="agenda-item">11:20 am - 12:40 pm : Scientific Session<br>
+			<em>Chair: Krishna Choudhary</em></h4>
 			<ul>
 				<li>11:20 am - 11:40 pm: Tyler J. Kovach (University of Wisconsin-Madison)  <br>								 
 					<button type="button" class="collapse">Scalable Autotuning of High-Temperature Quantum Dot Spin Qubits</button> 
@@ -324,34 +335,7 @@
 					</div><br>  
 				</li>	
 
-				<li>12:00 pm - 12:20 pm: Anantha S. Rao (University of Maryland)<br>
-					<button type="button" class="collapse">Towards autonomous time-calibration of large quantum-dot devices: Detection, 
-						Real-time feedback, and noise spectroscopy</button> 
-					<div class="content"> 
-						<p style="margin-bottom:5px; padding: 0px;">The scalability of spin qubit registers is currently hindered by device inhomogeneity and
-							charge noise, leading to time-dependent low-frequency drifts necessitating frequent and timeconsuming manual calibration. To address
-							these challenges, we introduce an automated framework for real-time monitoring, characterization, and correction of drifts in large 
-							quantum dot systems. Built upon the Modular Autonomous Virtualization system (MAViS) [1], our framework leverages time-traces of 
-							extracted intra- and inter-dot charge transition lines within double quantum dot stability maps. By combining an ensemble of 
-							convolutional neural networks, dynamic windowed-Hough transformations, and physics-informed heuristics, we identify charge transitions 
-							defining the relevant charge state and tracks their time evolution, enabling both impromptu corrections for electrostatic drifts and 
-							in-situ noise spectroscopy. From the recorded time-traces, we extract the power spectral density (PSD) and perform Allan deviation 
-							analysis to characterize the local noise affecting each quantum dot. This allows us to autonomously identify noise sources and signatures 
-							of two-level fluctuators independent of charge sensor proximity. We benchmark our results against simulations and identify minimum noise 
-							thresholds required for high fidelity performance. In addition, we show high accuracy tracking of maps and apply real-time feedback to 
-							correct random drifts.</p>
-						<p style="margin-bottom:5px; padding: 0px; text-indent: 30px;">We deploy our framework on a 10-dot hole-based device in planar germanium, 
-							performing continuous autonomous monitoring for over 48 hours. To benchmark sensitivity, we test our method by introducing artificial 
-							voltage pulses, demonstrating reliable detection of electrostatic shifts as small as 0.1 mV.We autonomously identifies dominant noise 
-							sources for each gate and quantifies their correlations, revealing a noise correlation length of approximately 200 nm. Our methods 
-							establish a powerful toolkit for the autonomous stabilization and scalable operation of quantum dot arrays-an essential capability on 
-							the path to fault-tolerant quantum computing.</p>
-							[1] Rao, Anantha S., <em>et al.</em> "Modular autonomous virtualization system for two-dimensional semiconductor quantum dot arrays." 
-							Physical Review X 15.2 (2025): 021034.
-					</div><br>  
-				</li>
-
-				<li>12:20 pm - 12:40 pm: Han Na We (Forschungszentrum J&uuml;lich GmbH and Aachen University)<br>
+				<li>12:00 pm - 12:20 pm: Han Na We (Forschungszentrum J&uuml;lich GmbH and Aachen University)<br>
 					<button type="button" class="collapse">Efficient Quantum Dot Tuning with Ray-Based Algorithms</button> 
 					<div class="content"> 
 						<p style="margin-bottom:5px; padding: 0px;">As quantum processors scale to larger numbers of qubits, efficient and reliable tuning of
@@ -368,11 +352,11 @@
 				</li>
 			</ul>
 
-			<h4>12:40 pm - 1:40 pm : Lunch break</h4><br>
+			<h4 class="agenda-item">12:20 pm - 1:20 pm : Lunch break</h4><br>
 
-			<h4>1:40 pm - 2:55 pm : Scientific Session</h4>
+			<h4 class="agenda-item">1:20 pm - 2:35 pm : Scientific Session</h4>
 			<ul>
-				<li>1:40 pm - 2:00: Joel Pendleton (Conductor Quantum)  <br>								 
+				<li>1:20 pm - 1:40: Joel Pendleton (Conductor Quantum)  <br>								 
 					<button type="button" class="collapse">Cloud API toolkit for tuning quantum dot devices</button> 
 					<div class="content"> 
 						<p style="margin-bottom:25px; padding: 0px;">Quantum dot automation has traditionally relied on bespoke heuristic tools and machine learning 
@@ -384,7 +368,7 @@
 					</div>
 				</li>
 				
-				<li>2:00 pm - 2:20 pm: Joost van der Heijden (Quantum Machines)<br>
+				<li>1:40 pm - 2:00 pm: Joost van der Heijden (Quantum Machines)<br>
 					<button type="button" class="collapse">Control hardware with automated calibration software for quantum dots</button> 
 					<div class="content"> 
 						<p style="margin-bottom:5px; padding: 0px;">Stand-alone tuning and stabilization protocols for spin qubits in semiconductor quantum dots, often 
@@ -412,23 +396,61 @@
 					</div><br>
 				</li>	
 
-				<li>2:20 - 2:55: TBA (HRL)<br>
-					<button type="button" class="collapse">TBA</button> 
+				<li>2:00 - 2:35: Andrew E Oriani (HRL Laboratories)<br>
+					<button type="button" class="collapse">HRL and open-source software for spin-qubits: Future outlook</button> 
 					<div class="content"> 
-						<p style="margin-bottom:5px; padding: 0px;">TBA</p>
+						<p style="margin-bottom:5px; padding: 0px;">To ensure the long-term success of spin-qubit development, accessible software is necessary 
+							to address the complications of device control, simulation, and analysis, while also promoting healthy exchange between various parts 
+							of the spin qubit design, fabrication, verification, and measurement processes. As a vertically integrated organization and leader in 
+							spin-qubit technologies HRL is uniquely positioned to provide software expertise in the creation of open-source, community focused tools 
+							to address these problems and promote a healthy domestic spin qubit ecosystem. In this high-level talk, we will discuss the areas which 
+							HRL would like to expand offerings and discuss some insights and challenges that must be overcome.</p>
 					</div>  
 				</li>
 			</ul>
 
-			<h4>2:55 pm - 3:20 pm : Coffee break</h4><br>
+			<h4 class="agenda-item">2:35 pm - 3:00 pm : Coffee break</h4><br>
 			
-			<h4>3:20 pm - 4:50 am : Breakout discussions </h4>
+			<h4 class="agenda-item">3:00 pm - 4:50 am : Breakout discussions </h4>
 			<ul>
-				<li>3:20 - 4:20: Breakout discussion</li>
+				<li>3:00 - 4:10: Breakout discussion</li>
+					<button type="button" class="collapse">Group 1: Automation frontiers: From capacitance to quantum gates 
+						[<em>Chair: Florian Luthi (Intel)</em>]</button> 
+					<div class="content"> 
+						<ul>
+							<li>Explore emerging frontiers in automation, with emphasis on how datasets can be leveraged to benchmark 
+								new approaches and reveal unmet research needs.</li>
+							<li>Assess the availability and accessibility of experimental datasets for semiconductor quantum dot device 
+								automation and identify gaps or barriers that limit their effective use in advancing research.</li>
+						</ul>
+					</div> 
+					<button type="button" class="collapse">Group 2: Closing the loop: Building digital twins and other agentic AI approaches 
+						[<em>Chair: Gushu Li (UPenn)</em>]
+					</button> 
+					<div class="content"> 
+						<ul>
+							<li>Investigate approaches for building digital twins to close the loop between experimental data, modeling, and 
+								automation workflows, identifying the types of datasets and simulations required to make digital twins robust 
+								and broadly applicable.</li>
+							<li>Examine the role of simulation and modeling of quantum dot systems, focusing on how simulated datasets can 
+								complement experimental data to accelerate automation and improve scalability. </li>
+						</ul>
+					</div> 
+					<button type="button" class="collapse">Group 3: Moving to the edge: Automation in hardware [<em>Stefan van Waasen 
+						(Forschungszentrum Juelich)</em>]</button> 
+					<div class="content">
+						<ul>
+							<li>Evaluate strategies for enabling edge-level hardware automation and discuss challenges in integration, performance, 
+								and deployment.</li>
+							<li>Examine the role of simulation and modeling of quantum dot systems in advancing the near-and on-chip calibration and 
+								control.</li>
+						</ul>
+					</div> 
+				<li>4:10 - 4:20: Summarization period / break</li> 
 				<li>4:20 - 4:50: Summary from breakout session chairs</li>
 			</ul>
 		
-			<h4>4:50 am - 5:00 am : Closing remarks</h4>
+			<h4 class="agenda-item">4:50 am - 5:00 am : Closing remarks</h4>
 
 		</div>
 	</section>

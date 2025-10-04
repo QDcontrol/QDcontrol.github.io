@@ -205,8 +205,12 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	p, ol, dl, table {
 		margin-bottom: 2em;
+	}
+
+	ul {
+		margin-bottom: 0.75rem;
 	}
 
 	br.clear {
@@ -1987,6 +1991,17 @@ input, select, textarea {
 			background-color: #7eaeac;
 		}
 
+.agenda-item {
+  background:#9D9D9D;      /* brand blue */
+  color:#fff;
+  padding:.25rem .5rem;
+  margin-bottom: 0.75rem;
+  border-radius:.5rem;
+  display:inline-block;     /* remove for full-width */
+  font-size: 17px;
+  font-weight: bold;
+  width: 90%;
+}
 
 /* Item */
 
